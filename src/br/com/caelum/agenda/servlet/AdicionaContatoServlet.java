@@ -54,7 +54,6 @@ public class AdicionaContatoServlet extends HttpServlet {
 //		contato.setEndereco(endereco);
 //		contato.setEmail(email);
 //		contato.setDataNascimento(dataNascimento);
-//		
 
 		// salva o contato
 //		ContatoDao dao = new ContatoDao();
