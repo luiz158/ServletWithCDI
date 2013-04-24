@@ -42,12 +42,12 @@ class InjectionTargetRequestReader<T> implements InjectionTarget<T> {
 				if(field.getType().isAssignableFrom(paramValue.getClass())){
 					field.set(instance, paramValue);
 				}
-				
+
 				System.out.println("K: " + paramName);
 				System.out.println("V: " + Arrays.toString(entries.getValue()));
 				System.out.println("----------------------------");
 			}
-			
+
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
